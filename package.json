@@ -1,0 +1,16 @@
+{
+  "name": "fouet-gestta",
+  "version": "1.0.0",
+  "description": "ERP para Gestão Inteligente de Confeitarias",
+  "private": true,
+  "scripts": {
+    "dev": "npm run dev --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "preview": "npm run preview --prefix frontend",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:all": "concurrently \"npm run dev\" \"npm run dev:backend\""
+  },
+  "keywords": ["erp", "confeitaria", "pdv", "nfc-e"],
+  "author": "GOiN HUB",
+  "license": "UNLICENSED"
+}
